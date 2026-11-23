@@ -1,0 +1,26 @@
+PS C:\Users\astrum\Desktop\work> python run.py --input data/mixed.csv
+{
+  "algorithm": "student_candidate",
+  "n_total": 22,
+  "n_success": 20,
+  "n_timeout": 2,
+  "timeout_fraction": 0.09090909090909091,
+  "p95_success_ms": 95.0,
+  "scope": "successful_observations_only",
+  "censored": true
+}
+
+PS C:\Users\astrum\Desktop\work> python run.py --input data/all_timeout.csv
+{
+  "algorithm": "student_candidate",
+  "n_total": 2,
+  "n_success": 0,
+  "n_timeout": 2,
+  "timeout_fraction": 1.0,
+  "p95_success_ms": null,
+  "scope": "successful_observations_only",
+  "censored": true
+}
+
+PS C:\Users\astrum\Desktop\work> python run.py --input data/invalid.csv
+ERROR: ROW 2: elapsed_ms не является числом

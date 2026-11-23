@@ -1,0 +1,18 @@
+PS C:\Users\astrum\Desktop\work> python -m unittest discover -s tests -v
+test_boundary_rank_11 (test_student.StudentChecks) ... ok
+test_boundary_rank_20 (test_student.StudentChecks) ... ok
+test_duplicates (test_contract.ContractChecks) ... ok
+test_eleven (test_contract.ContractChecks) ... ok
+test_input_is_unchanged (test_contract.ContractChecks) ... ok
+test_invalid (test_contract.ContractChecks) ... ok
+test_invalid_inputs (test_student.StudentChecks) ... ok
+test_original_list_unchanged (test_student.StudentChecks) ... ok
+test_single (test_contract.ContractChecks) ... ok
+test_timeout_separated (test_contract.ContractChecks) ... ok
+test_twenty (test_contract.ContractChecks) ... ok
+test_unsorted_duplicates (test_student.StudentChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.012s
+
+OK
